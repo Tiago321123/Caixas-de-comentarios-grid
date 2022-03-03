@@ -116,3 +116,21 @@ main{
     @include style-text(#fff);
 }
 
+@media (max-width: 1200px){
+    main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 100%;
+    }
+    .svg{
+        margin-left: 50%;
+    }
+}
+
+@media (max-width:450px){
+    .svg{
+        display: none;
+    }
+}
