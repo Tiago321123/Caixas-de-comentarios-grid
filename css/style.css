@@ -32,6 +32,8 @@ main {
   width: 82%;
   margin: 10px auto;
   gap: 30px;
+  justify-content: center;
+  align-content: center;
 }
 
 .svg {
